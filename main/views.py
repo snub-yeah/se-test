@@ -28,3 +28,6 @@ def signup_view(request):
         return redirect("home")
 
     return render(request, "main/signup.html")
+
+def home_view(request):
+    return render(request, template_name="main/home.html")
